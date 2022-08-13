@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>単語の足し算・引き算</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    </head>
+    <body>
+	<div id="center_body">
+            <h1>単語の足し算・引き算アプリ</h1>
+
+	    <div id="all_word"></div>
+
+	    <div id="user_input_box">
+		<input id="input_box" onkeypress="toEnter()">
+    		<input type="submit" value="=" name="=" id="equlbtn" onclick="Equal(1)">
+	    </div>
+
+	    <div id="result_wait"></div>
+	    <div id="answer"></div>
+	</div>
+	
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/js/script.js"></script>
+    </body>
+</html>
