@@ -6,11 +6,11 @@ import openai
 import random
 
 #OpenAIのapiキー
-openai.api_key = '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'
+openai.api_key = 'OPEN_API_KEY'
 # Slack APIトークン
-SLACK_API_TOKEN = 'xoxb-4010266718358-5002085098864-twO3TXj3CV1MPXAE5dTfrGw8'
+SLACK_API_TOKEN = 'SLACK_API_KEY'
 # Slackに投稿するチャンネル名を指定する
-SLACK_CHANNEL = "#ml-learning"
+SLACK_CHANNEL = "#name_of_channel"
 
 def get_summary(result):
     system = """与えられた論文の要点を3点のみでまとめ、以下のフォーマットで日本語で出力してください。```
